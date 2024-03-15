@@ -1,0 +1,7 @@
+ git checkout staging
+ git add .
+ git commit -m “first commit”
+ git push -u origin staging
+ git checkout production
+ git merge staging
+ git push -u origin production
